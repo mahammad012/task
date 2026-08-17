@@ -13,7 +13,7 @@ class Program
         car.VehicleInfo();
         car.StopEngine();
 
-        Console.WriteLine("-------------------");
+        Console.WriteLine("------------------");
 
         Vehicle v = new ElectricCar("Tesla", "Model 3", 2022, 60.0, 15.0, 30.0);
         v.StartEngine();
